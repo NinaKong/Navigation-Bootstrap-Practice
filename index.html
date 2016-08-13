@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Bootstrap</title>
+</head>
+<body>
+	<header>
+		<div class="container"><h1>Title</h1></div>
+	</header>
+    <section>
+      <ul class="nav nav-pills nav-justified">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            Activity
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+              <li><a href="#">Activity 1</a></li>
+              <li><a href="#">Activity 2</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Activity 3</a></li>
+              <li class="disabled"><a href="#">Activity 4</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </section>
+    <section>
+      <nav class="navbar navbar-default">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#hamburgerMenu">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="hamburgerMenu">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Desktop</a></li>
+            <li><a href="#">Tablet</a></li>
+            <li class="disabled"><a href="#">Mobile</a></li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <div class="container">
+      <section>
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownlist" data-toggle="dropdown">
+            Dropdown
+            <span class="caret"></span>
+          </button>   
+          <ul class="dropdown-menu">
+            <li class="dropdown-header"><a href="#">List Header</a></li>
+            <li><a href="#">List 1</a></li>
+            <li><a href="#">List 2</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">List 3</a></li>
+            <li class="disabled"><a href="#">List 4</a></li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div class="btn-group-vertical">
+          <button type="button" class="btn btn-default">Button 1</button>
+          <button type="button" class="btn btn-default">Button 2</button>
+          <div class="btn-group">
+            <div class="dropup">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownlist" data-toggle="dropdown">
+                Dropdown
+                <span class="caret"></span>
+              </button>   
+              <ul class="dropdown-menu">
+                <li><a href="#">List 1</a></li>
+                <li><a href="#">List 2</a></li>
+                <li><a href="#">List 3</a></li>
+                <li><a href="#">List 4</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="btn-group btn-group-justified">
+          <div class="btn-group">
+            <button type="button" class="btn btn-default">Button 1</button>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-default">Button 2</button>
+          </div>
+          <div class="btn-group">
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownlist" data-toggle="dropdown">
+                Dropdown
+                <span class="caret"></span>
+              </button>   
+              <ul class="dropdown-menu">
+                <li><a href="#">List 1</a></li>
+                <li><a href="#">List 2</a></li>
+                <li><a href="#">List 3</a></li>
+                <li><a href="#">List 4</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <ol class="breadcrumb">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">CSS</a></li>
+          <li><a href="#">Javascript</a></li>
+        </ol>
+      </section>
+      <section>
+        <nav>
+          <ul class="pagination pagination-lg">
+            <li>
+              <a href="#"><span>&laquo</span></a>
+            </li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li class="active"><a href="#">5</a></li>
+            <li class="disabled">
+              <a href="#"><span>&raquo</span></a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <section>
+        <nav>
+          <ul class="pager">
+            <li class="previous"><a href="#">< Previous</a></li>
+            <li class="next disabled"><a href="#">Next ></a></li>
+          </ul>
+        </nav>
+      </section>
+    </div>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
